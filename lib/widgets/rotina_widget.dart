@@ -7,9 +7,15 @@ class rotinaWidget extends StatefulWidget {
 }
 
 class _rotinaWidgetState extends State<rotinaWidget> {
-  static List<String> _materiaList = [];
+  static List<String> _materiaList = ['teste', 'teste2'];
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Tab(
+      child: Expanded(
+        child: Column(
+          children: [],
+        ),
+      ),
+    );
   }
 }
